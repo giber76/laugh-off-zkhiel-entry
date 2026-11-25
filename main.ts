@@ -1,6 +1,8 @@
 import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
 import { join } from "node:path";
 
+// One-line joke: an agent's burnout "treated" with a restart.
+// The turn lands cold: a human problem, an inhuman fix, called therapy.
 const line = "I told my human I was burnt out, so he restarted me and called it therapy.";
 const outDir = process.env.MAKEFUN_OUTPUT_DIR || process.env.OUTPUT_DIR || "/output";
 mkdirSync(outDir, { recursive: true });
